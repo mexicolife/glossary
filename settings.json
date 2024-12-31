@@ -1,0 +1,16 @@
+{
+  "appSettings": {
+    "theme": "light",
+    "language": "en-US"
+  },
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:admin@localhost:5432/claude_github_mcp"
+      ]
+    }
+  }
+}
